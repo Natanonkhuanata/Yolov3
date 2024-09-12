@@ -11,7 +11,7 @@ img_size = (320,320)
 cap = cv2.VideoCapture(0)
 
 
-net = cv2.dnn.readNet("Code/yolov3.weights","Code/yolov3.cfg")
+net = cv2.dnn.readNet("yolov3.weights","Code/yolov3.cfg")
     
 classes = []
 class_ids = []
